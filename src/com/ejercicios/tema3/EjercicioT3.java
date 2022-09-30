@@ -1,6 +1,6 @@
 package com.ejercicios.tema3;
 
-public class Tema3 {
+public class EjercicioT3 {
 
     public static void main(String[] args) {
 
