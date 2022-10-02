@@ -43,10 +43,17 @@ public class Main {
         System.out.println(relojito.formatohora);
 
 
-        System.out.println(relojito.versión);
+        System.out.println(relojito.version);
         relojito.actualizar();
-        System.out.println(relojito.versión);
+        System.out.println(relojito.version);
         relojito.cargar(10);
+
+
+        relojito.apagar();
+        relojito.printOnOff();
+        relojito.apagar();
+        relojito.printOnOff();
+
 
 
 

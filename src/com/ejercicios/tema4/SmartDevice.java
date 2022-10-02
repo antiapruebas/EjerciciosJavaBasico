@@ -45,8 +45,8 @@ public class SmartDevice {
     }
 
 
-    public int cargar (int carga) {
-        return this.bateriaActual += carga;
+    public void cargar (int carga) {
+        this.bateriaActual += carga;
     }
 
 

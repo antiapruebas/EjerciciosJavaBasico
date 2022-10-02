@@ -4,25 +4,25 @@ public class SmartWatch extends SmartDevice {
 
     String esfera;
     int formatohora;
-    int versión;
+    int version;
 
 
     public SmartWatch (){
 
     }
 
-    public SmartWatch (String esfera, int formatohora, int versión, int bateriamax, int bateriaActual){
+    public SmartWatch (String esfera, int formatohora, int version, int bateriamax, int bateriaActual){
 
         this.esfera = esfera;
         this.bateriaMax=bateriamax;
         this.formatohora= formatohora;
-        this.versión= versión;
+        this.version = version;
         this.bateriaActual= bateriaActual;
 
     }
 
      int actualizar (){
-       return this.versión+= 1;
+       return this.version += 1;
     }
 
     int ampm ( ){
